@@ -8,7 +8,7 @@ import com.utils.BasicTest;
 import com.utils.Utils;
 
 public class Bai16_LoginTest extends BasicTest {
-//Nhập đủ mail và pass
+//Nhập đủ mail và password
     //Truy cập url
     @Test(priority = 1)
     public void loginTestSuccess() throws Exception {

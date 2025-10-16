@@ -26,7 +26,7 @@ public class Bai16_RegisterTest extends BasicTest {
          WebElement passwordInput = driver.findElement(By.xpath("//*[@id='password']"));
          passwordInput.clear();
 
-         //Click nút đăng ky
+         //Click nút đăng ký
         WebElement loginBtn = driver.findElement(By.xpath("//button[@name='login']"));
         loginBtn.click();
 
