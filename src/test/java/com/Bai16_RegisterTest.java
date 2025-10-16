@@ -11,7 +11,6 @@ import com.utils.Utils;
 
 public class Bai16_RegisterTest extends BasicTest {
 
-
     @Test
     public void registerTest() throws Exception {
         // Mở trang đăng ký

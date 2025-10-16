@@ -29,7 +29,6 @@ public class Bai16_LoginTest extends BasicTest {
         Utils.hardWait(3000);
         WebElement errorMessage = driver.findElement(By.xpath("//ul[@class='woocommerce-error']/li"));
         Assert.assertTrue(errorMessage.isDisplayed(), "Địa chỉ email không xác định");
-       
     }
 
     // Không nhập pass
