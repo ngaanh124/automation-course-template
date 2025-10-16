@@ -20,7 +20,7 @@ public class Bai16_LoginTest extends BasicTest {
 
         //Nhập pass
         WebElement password = driver.findElement(By.id("password"));
-        password.sendKeys("123");
+        password.sendKeys("1234");
 
         //Click button login
         WebElement loginBtn = driver.findElement(By.name("login"));

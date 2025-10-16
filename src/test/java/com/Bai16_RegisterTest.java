@@ -32,7 +32,7 @@ public class Bai16_RegisterTest extends BasicTest {
         loginBtn.click();
 
         //Chờ một xíu
-        Utils.hardWait(5000);
+        Utils.hardWait(3000);
 
         // Kiểm tra thông báo
 
